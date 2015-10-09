@@ -1,46 +1,29 @@
 {
   "name": "hubot-gif",
-  "description": "A hubot script that does the things",
-  "version": "0.0.0",
+  "description": "Hubot script which can search for gifs on imgur or get random reaction gifs from reactiongifsarchive.imgur.com",
+  "version": "0.0.1",
   "author": "Taylan Aydinli <taylanaydinli@gmail.com>",
   "license": "MIT",
 
-  "keywords": "hubot, hubot-scripts, gif, imgur, gifs, animate",
+  "keywords": "hubot, hubot-scripts, gif, imgur, gifs, animate, gifv",
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-gif.git"
+    "url": "git://github.com/taylan/hubot-gif.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-gif/issues"
+    "url": "https://github.com/taylan/hubot-gif/issues"
   },
 
   "dependencies": {
+    "coffee-script": "~1.6",
+    "cheerio": "^0.19.0"
   },
 
   "peerDependencies": {
     "hubot": "2.x"
   },
 
-  "devDependencies": {
-    "chai": "^2.1.1",
-    "coffee-script": "1.6.3",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-mocha-test": "~0.12.7",
-    "grunt-release": "~0.11.0",
-    "hubot": "2.x",
-    "matchdep": "~0.3.0",
-    "mocha": "^2.1.0",
-    "sinon": "^1.13.0",
-    "sinon-chai": "^2.7.0"
-  },
-
-  "main": "index.coffee",
-
-  "scripts": {
-    "test": "grunt test"
-  }
+  "main": "index.coffee"
 }
