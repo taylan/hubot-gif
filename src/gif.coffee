@@ -1,5 +1,5 @@
 # Description
-#   A hubot script that does the things
+#   Hubot script which can search for gifs on imgur or get random reaction gifs from reactiongifsarchive.imgur.com
 #
 # Dependencies:
 #   "cheerio": "~0.19.0"
